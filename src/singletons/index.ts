@@ -1,7 +1,7 @@
-import { Database } from './singletons/ConeccionDataBase';
-import { Logger } from './singletons/logger';
-import { Config } from './singletons/singletons_config/Config';
-import { conectarBaseDeDatos } from './singletons/singletons_config/ejemplo';
+import { Database } from './ConeccionDataBase';
+import { Logger } from './logger';
+import { Config } from './singletons_config/Config';
+import { conectarBaseDeDatos } from './singletons_config/ejemplo';
 
 /* 
 ------   SINGLETONS  ------
@@ -44,11 +44,11 @@ console.log('Es la misma instancia? ', logger1 === logger2);
 
 console.log('\n ---- Singletons GlobalCounter ---- ');
 
-import './singletons/globalCounter/moduloA'
-import './singletons/globalCounter/moduloB'
-import './singletons/globalCounter/moduloC'
+import './globalCounter/moduloA'
+import './globalCounter/moduloB'
+import './globalCounter/moduloC'
 
 console.log('\n ---- Singletons Notificaciones ---- ');
 
-import './singletons/notificationCenter/moduloA'
-import './singletons/notificationCenter/moduloB'
+import './notificationCenter/moduloA'
+import './notificationCenter/moduloB'
