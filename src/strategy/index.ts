@@ -16,6 +16,8 @@ import { MotorRecomendaciones, Producto, RecomendacionPorHistorial, Recomendacio
 
 /* ------ Patrón de diseño: STRATEGY ------
 
+STRATEGY ----> ELECCIÓN Y USO DE UN COPORTAMIENTO DENTRO DE UN CONTRATO COMÚN. (decide qué algoritmo usar y permite intercambiarlo en tiempo de ejecución)
+
   Es un patrón de diseño de comportamiento que te permite definir una familia de algoritmos, colocar cada uno de ellos en una clase separada y hacer sus objetos intercambiables.
 
   Permite definir una familia de algoritmos, encapsularlos y hacerlos intercambiables sin modificar el código del cliente que los usa.

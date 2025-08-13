@@ -10,6 +10,9 @@ Este patrón evita que se creen múltiples instancias de una clase, Asegurando q
 Ideal cuando:
   Se necesita controlar el acceso a recursos compartidos (ej: conexiones a base de datos, logging, configuraciones de app, etc.)
   Debe existir un único punto de coordinación
+
+Pros: Garantiza una única instancia, Control centralizado de estado, Útil para recursos compartidos, Fácil de implementar.
+Contras: Puede ocultar dependencias, Dificulta el testeo (por ser global), Rompe principios con Inversión de Dependencias si se abusa, Puede generar acoplamiento fuerte.
 */
 
 (async () => {
